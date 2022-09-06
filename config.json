@@ -1,14 +1,14 @@
 {
    "prefix": "multi",
-   "defaultSessionName": "bot",
+   "defaultSessionName": "session",
    "zeksKey": "apikey",
    "dapkey": "apikey",
    "autoRead": true,
    "self": false,
    "maxLimit": 15,
-   "ownerList": ["6281252848955@s.whatsapp.net"],
+   "ownerList": ["15107640798@s.whatsapp.net"],
    "apiUrl": "https://api.zeks.me",
-   "imgUrl": "https://i.postimg.cc/g0f6zw5n/20210926-104005.jpg",
+   "imgUrl": "",
    "pack": "Made with",
-   "author": "Zets"
+   "author": "Vander MD"
 }
