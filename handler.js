@@ -180,19 +180,19 @@ module.exports = handle = (client, Client) => {
 		data.reply(ingfo)
 		})
 		Client.cmd.on('grupbot', async (data) => {
-		data.reply('https://bit.ly/zetsbotgc\nSilahkan join untuk mendapatkan akses lebih')
+		data.reply('https://bit.ly/coomingson\nSilahkan join untuk mendapatkan akses lebih')
 		})
 		Client.cmd.on('botgrup', async (data) => {
-		data.reply('https://bit.ly/zetsbotgc\nSilahkan join untuk mendapatkan akses lebih')
+		data.reply('https://bit.ly/coomingson\nSilahkan join untuk mendapatkan akses lebih')
 		})
 		Client.cmd.on('sewa', async (data) => {
-		data.reply('━━━━━━\n*PRICE LIST*\n\n- 7HARI / *Rp 5.000*\n- 30HARI / *Rp 10.000*\n- Permanen?? *Gaada bang*\n\n*PAYMENT*\n\n- GOPAY/ DANA : *081252848955*\n- PULSA +5K : *081336990737*\n- QRIS ALL PAYMENT : *MINTA OWNER*\n\n*MINAT? PM*\nwa.me/6281252848955\nIG : instagram.com/nando.xyz\n━━━━━━')
+		data.reply('━━━━━━\n*PRICE LIST*\n\n- PERMANEN / *Rp 5.000*\n\n*PAYMENT*\n\n- GOPAY/ DANA : *Minta Owner*\n- PULSA +5K : *089520169515*\n- QRIS ALL PAYMENT : *MINTA OWNER*\n\n*MINAT? PM*\nwa.me/6289520169515\nIG : instagram.com/GaAda\n━━━━━━')
 		})
 		Client.cmd.on('donasi', async (data) => {
-		data.reply('Donasi\nsaweria: https://saweria.co/nando35\ntrakteer: https://trakteer.id/nando35')
+		data.reply('Donasi\nsaweria: https://saweria.com/coomingson\ntrakteer: https://trakteer.id/coomingson')
 		})
 		Client.cmd.on('bansos', async (data) => {
-		data.reply('Donasi\nsaweria: https://saweria.co/nando35\ntrakteer: https://trakteer.id/nando35')
+		data.reply('Donasi\nsaweria: https://saweria.co/coomingson\ntrakteer: https://trakteer.id/coomingson')
 		})
 		/*ANIME*/
         Client.cmd.on('waifu', async (data) => {
@@ -768,7 +768,7 @@ module.exports = handle = (client, Client) => {
             if(!data.isGroup) return data.reply(mess.group)
             if(!data.isAdmin) return data.reply(mess.admin)
             if(!data.botIsAdmin) return data.reply(mess.botAdmin)
-            if(data.body == "") return data.reply(`Kirim perintah *${data.prefix}${data.command} [ nomor ]*\nContoh : ${data.prefix}${data.command} 6285736996646`)
+            if(data.body == "") return data.reply(`Kirim perintah *${data.prefix}${data.command} [ nomor ]*\nContoh : ${data.prefix}${data.command} 6289520169515`)
             args = data.args.map(mp => mp + "@s.whatsapp.net")
             client.groupAdd(data.from, args).then(() => data.reply(`Berhasil menambahkan @${data.args.join(' @')}`)).catch(() => data.reply('Unable to invite'))
         })
@@ -936,7 +936,7 @@ module.exports = handle = (client, Client) => {
  	                 const mediaMsg = await client.prepareMessageMedia(await getBuffer(configs.imgUrl), 'imageMessage')
                      const buttonMessage = {
                            contentText: menu(data.prefix, data.pushname),
-                           footerText: 'Follow My IG - instagram.com/nando.xyz',
+                           footerText: 'Follow My IG - instagram.com/coomingson',
                                 "contextInfo": {
 									  mentionedJid: [configs.ownerList[0]],
                                       participant: sender,
